@@ -1,0 +1,39 @@
+[build]
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+publish = "public"
+
+[build.environment]
+# (Optional) Text in landing page button
+LANDING_BUTTON = "Go to Index"
+# (Optional) Site description on landing page
+LANDING_DESCRIPTION = "Currently a work in progress !"
+# (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
+LANDING_PAGE = "home"
+# (Optional) Site title on landing page
+LANDING_TITLE = "John Mavrick's Garden"
+PYTHON_VERSION = "3.8"
+# (REQUIRED) Site repo URL
+REPO_URL = "https://github.com/ransurf/school-vault-example"
+# (Optional) Site title in navbar
+SITE_TITLE = "John's Second 🧠"
+# (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
+SITE_TITLE_TAB = ""
+# (REQUIRED) Netlify site URL
+SITE_URL = "https://johnmavrickgarden.netlify.app/"
+# (Optional) Site Timezone
+TIMEZONE = "America/California/Los_Angeles"
+ZOLA_VERSION = "0.15.2"
+# (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
+SORT_BY = "title"
+# (Optional) Google Analytics Measurement ID
+GANALYTICS = ""
+# (Optional, default true) Slugify URLs. Put "" to disable.
+SLUGIFY = "y"
+# (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
+HOME_GRAPH = "y"
+# (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
+PAGE_GRAPH = "y"
+
+LOCAL_GRAPH = "y"
+
+STRICT_LINE_BREAKS = "y"
