@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "fe0b9cf577bff080",
+    "type": "split",
+    "children": [
+      {
+        "id": "060e41ba2c1db699",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0dbc489a2b850606",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4c819d465acf321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fedc98d63ac54fc3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "025fe93bf1bd2c53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9501b09157e34db3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab14c3ebbd5eb4a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "53fe559929435446",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9a2d70827053acf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2e2a01bddec8649",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "060e41ba2c1db699",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "School MOC.md",
+    "Study tips.md",
+    "MATH 200.md",
+    "MATH 200/Assignments/Math assignment.md",
+    "PHYS 100.md",
+    "PHYS 100 Outline.md",
+    "Concept 2.md",
+    "Concept 1.md",
+    "PHYS 100 Lecture 25.md"
+  ]
+}

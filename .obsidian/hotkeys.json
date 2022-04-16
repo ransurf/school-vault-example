@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:Templates/Course Template.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ]
+}
